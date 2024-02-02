@@ -56,9 +56,9 @@ def draw_window(red, yellow, red_bullets, yellow_bullets, red_health, yellow_hea
     pygame.draw.rect(WIN, BLACK, BORDER)
 
     red_health_text = HEALTH_FONT.render(
-        "Blue's helth: " + str(red_health), 1, WHITE)
+        "Blue's health: " + str(red_health), 1, WHITE)
     yellow_health_text = HEALTH_FONT.render(
-        "Red's helth: " + str(yellow_health), 1, WHITE)
+        "Red's health: " + str(yellow_health), 1, WHITE)
     WIN.blit(red_health_text, (WIGHT - red_health_text.get_width() - 10, 10))
     WIN.blit(yellow_health_text, (10, 10))
 
